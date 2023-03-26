@@ -169,7 +169,7 @@ img{
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -181,11 +181,10 @@ img{
     align-items:center;
     
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .address-contact{
+    display:block;
     padding-top: var(--card-set-gap);
     padding-bottom: var(--card-set-gap);
 
@@ -195,6 +194,7 @@ img{
     letter-spacing: 0.02em;
     
     color: var(--third-color);
+    transition: color 250ms var(--timing-function);
 }
 
 /*.address-item:not(:first-child){
