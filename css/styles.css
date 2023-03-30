@@ -745,7 +745,7 @@ color: var(--third-color);
     background-color: #31D0AA;
 }
 
-/*---------------MIODAL WINDOW----------*/
+/*---------------MODAL WINDOW----------*/
 
 .backdrop{
     position: fixed;
@@ -803,3 +803,9 @@ color: var(--third-color);
     fill:#FFFFFF;
     background-color: var(--focus-color);
 } 
+
+.modal-form-field{
+    display:block;
+    align-items: center;
+
+}
