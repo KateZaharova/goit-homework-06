@@ -645,7 +645,7 @@ color: var(--third-color);
 /*----------FOOTER-------------*/
 
 .bottom-section{
-    padding-top: 100px;
+   padding-top: 100px;
     padding-bottom: 100px;
 
     background: var(--primary-color);
@@ -752,10 +752,105 @@ color: var(--third-color);
    fill:#F4F4FD; 
 }
 
-
 .icon-bottom-link:hover, 
 .icon-bottom-link:focus{
     background-color: #31D0AA;
+}
+
+/*---------BOTTOM-SUBSCRIBE-CONTAINER--------*/
+
+.bottom-subscribe-container {
+    display: block;
+    margin-left: 80px;
+}
+
+.bottom-label{
+    display: block;
+}
+
+.bottom-p{
+    display: block;
+    flex-direction: column;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.bottom-email-input{
+    display: flex;
+    width:264px;
+    height:40px;
+    padding-left: 16px;
+    color:#ffff;
+    background-color: var(--primary-color);
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.bottom-email-input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    width:100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.bottom-btn-submit-nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.bottom-btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 24px;
+
+    padding: 8px 64px 8px 24px;
+    min-width: 165px;
+    height:40px;
+
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color:#ffff;
+    border:none;
+    outline: none;
+
+    transition: background-color 250ms var(--timing-function);
+}
+
+.bottom-btn-submit:focus,
+.bottom-btn-submit:hover {
+    background-color: var(--focus-color);
+}
+
+.bottom-icon-send{
+    display: block;
+    position:absolute;
+    top:0;
+    right:0;
+    transform: translate (-50%,-50%);
+
+    fill:red;
+    
+    /*justify-content: center;
+    align-items: center;
+    background-size: contain;*/
 }
 
 /*---------------MODAL WINDOW----------*/
@@ -952,6 +1047,7 @@ color: var(--third-color);
     border-radius:2px;
     cursor:pointer;
     margin-right:8px;
+    transition: background-color 250ms var(--timing-function)
 }
 
 .modal-checkbox-label-wrapper{
@@ -990,6 +1086,6 @@ color: var(--third-color);
 
 .modal-button-submit:focus,
 .modal-button-submit:hover{
-    background-color: var(--focus-color);
-    
+    background-color: var(--focus-color);  
 }
+
