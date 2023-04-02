@@ -265,6 +265,7 @@ img{
     border-radius: 4px;
     min-width: 169px;
     padding: 16px 32px;
+    border:none;
 
     font-family: var(--primary-font);
     font-weight: 500;
@@ -761,7 +762,7 @@ color: var(--third-color);
 
 .bottom-subscribe-container {
     display: block;
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .bottom-label{
@@ -827,15 +828,12 @@ color: var(--third-color);
     margin-left: 24px;
 
     padding: 8px 64px 8px 24px;
-    min-width: 165px;
-    height:40px;
 
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color:#ffff;
     border:none;
-    outline: none;
 
     transition: background-color 250ms var(--timing-function);
 }
@@ -952,7 +950,7 @@ color: var(--third-color);
     line-height: 1.16;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .modal-form-label-wrapper{
@@ -1079,14 +1077,12 @@ color: var(--third-color);
     margin-left: auto;
     
     padding: 16px 32px;
-    min-width: 169px;
 
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color:#ffff;
     border:none;
-    outline: none;
 
     transition: background-color 250ms var(--timing-function);
 }
