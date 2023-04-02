@@ -982,11 +982,13 @@ color: var(--third-color);
     transition: fill 250ms var(--timing-function);
 }
 
-.modal-form-input:focus+.modal-form-input-icon{
+.modal-form-input:focus+.modal-form-input-icon,
+.modal-form-input:hover+.modal-form-input-icon{
     fill:var(--secondary-color);
 }
 
-.modal-form-input:focus {
+.modal-form-input:focus,
+.modal-form-input:hover {
     border-color: var(--secondary-color);
 }
 
@@ -1006,7 +1008,8 @@ color: var(--third-color);
     transition: border-color 250ms var(--timing-function);
 }
 
-.modal-textarea:focus{
+.modal-textarea:focus,
+.modal-textarea:hover{
     border-color:#4D5AE5;
 }
 
@@ -1051,7 +1054,7 @@ color: var(--third-color);
     border-radius:2px;
     cursor:pointer;
     margin-right:8px;
-    transition: background-color 250ms var(--timing-function)
+    transition: background-color 250ms var(--timing-function);
 }
 
 .modal-checkbox-label-wrapper{
