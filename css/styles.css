@@ -1075,6 +1075,7 @@ color: var(--third-color);
     display: block;
     margin-right: auto;
     margin-left: auto;
+    /*min-width: 169px;*/
     
     padding: 16px 32px;
 
@@ -1091,4 +1092,8 @@ color: var(--third-color);
 .modal-button-submit:hover{
     background-color: var(--focus-color);  
 }
+
+
+
+
 
