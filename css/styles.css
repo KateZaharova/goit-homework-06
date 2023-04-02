@@ -842,15 +842,13 @@ color: var(--third-color);
 .bottom-icon-send{
     display: block;
     position:absolute;
-    top:0;
-    right:0;
-    transform: translate (-50%,-50%);
-
-    fill:red;
-    
-    /*justify-content: center;
-    align-items: center;
-    background-size: contain;*/
+    width:24px;
+    height:24px;
+    top: 8px;
+    right:24px;
+    fill:white;
+    cursor:pointer;
+    background-size: contain;
 }
 
 /*---------------MODAL WINDOW----------*/
