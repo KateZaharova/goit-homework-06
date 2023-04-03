@@ -929,8 +929,8 @@ color: var(--third-color);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-color);
-    padding-top:48px;
-    padding-bottom:16px;
+    margin-top:48px;
+    margin-bottom:16px;
 }
 
 .modal-form-label{
